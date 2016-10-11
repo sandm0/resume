@@ -1,0 +1,447 @@
+#menu {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    width: 90px;
+    margin: -160px 0 0;
+    padding: 0;
+    list-style-type: none;
+    z-index: 70;
+}
+#menu li {
+    margin-top: 10px;
+    font: 14px "Microsoft Yahei";
+}
+#menu a {
+    display: block;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #0074EA;
+    text-align: center;
+    text-decoration: none;
+}
+#menu .active a {
+    color: #fff;
+    background-color: rgb(0, 116, 234);
+}
+
+
+.section {
+    text-align: center;
+    font: 18px "Microsoft Yahei";
+    color: #fff;
+}
+.section1 {
+    background: url(../images/bg2_87283a0.jpg) center center no-repeat;
+}
+.section2 {
+    background: url(../images/bg-kj_4d6c383.jpg) center center no-repeat;
+}
+.section3 {
+    background: url(../images/bg-exp3.jpg) center center no-repeat;
+}
+.section4 {
+    background: url(../images/bg-edu4.jpg) center center no-repeat;
+}
+.section5 {
+    background: url(../images/bg-work5.jpg) center center no-repeat;
+}
+.section6 {
+    background: url(../images/bg-end6.jpg) center center no-repeat;
+}
+.screen-main {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+.screen-main span {
+    position: absolute;
+}
+.skills-inner {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+.exp-inner {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+.edu-inner {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+.work-inner {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+.end {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+.screen-main .li1 {
+    width: 263px;
+    height: 258px;
+    z-index: 4;
+    left: -501px;
+    top: -445px;
+    background: url(../images/li1.png)
+}
+.screen-main .li2 {
+    width: 202px;
+    height: 214px;
+    z-index: 1;
+    left: 2000px;
+    top: -359px;
+    background: url(../images/li2.png)
+}
+.screen-main .jian1 {
+    width: 138px;
+    height: 95px;
+    z-index: 2;
+    left: -328px;
+    top: -589px;
+    left: -501px;
+    top: -445px;
+    background: url(../images/jian1.png)
+}
+.screen-main .jian2 {
+    width: 139px;
+    height: 94px;
+    z-index: 2;
+    left: 2000px;
+    top: -487px;
+    background: url(../images/jian2.png)
+}
+.screen-main .jian3 {
+    width: 46px;
+    height: 50px;
+    z-index: 2;
+    left: -244px;
+    top: -448px;
+    background: url(../images/jian3.png)
+}
+.screen-main .jian4 {
+    width: 46px;
+    height: 196px;
+    z-index: 2;
+    left: -244px;
+    top: -448px;
+    background: url(../images/jian4.png)
+}
+.screen-main .jian5 {
+    width: 166px;
+    height: 194px;
+    z-index: 2;
+    left: -244px;
+    top: -448px;
+    background: url(../images/jian5.png)
+}
+.screen-main .jian6 {
+    width: 76px;
+    height: 100px;
+    z-index: 2;
+    left: -244px;
+    top: -448px;
+    background: url(../images/jian6.png)
+}
+.screen-main .jian7 {
+    width: 37px;
+    height: 100px;
+    z-index: 2;
+    left: -244px;
+    top: -448px;
+    background: url(../images/jian7.png)
+}
+.screen-main .name {
+    width: 190px;
+    height: 74px;
+    z-index: 2;
+    left: 2000px;
+    top: -213px;
+    background: url(../images/name.png)
+}
+.screen-main .slogen {
+    width: 519px;
+    height: 68px;
+    z-index: 1;
+    left: 2000px;
+    top: -106px;
+    background: url(../images/slogen.png)
+}
+.skills-inner .skitems {
+    background: #ffd200;
+    color: #fff;
+}
+.skills-inner a {
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+}
+.skills-inner .title2 {
+    position: absolute;
+    width: 463px;
+    height: 136px;
+    left: 462px;
+    top: 18px;
+    background: url(../images/title2.png)
+}
+.skills-inner .skitems b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2em;
+}
+.skills-inner .skitems.sk1 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    left: 503px;
+    top: 264px;
+    font-size: 60px;
+}
+.skills-inner .skitems.sk2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    left: 944px;
+    top: 396px;
+    font-size: 35px;
+}
+.skills-inner .skitems.sk3 {
+    width: 196px;
+    height: 196px;
+    border-radius: 50%;
+    left: 825px;
+    top: 590px;
+    font-size: 35px;
+}
+.skills-inner .skitems.sk4 {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    left: 365px;
+    top: 537px;
+    font-size: 40px;
+}
+.skills-inner .skitems.sk5 {
+    width: 178px;
+    height: 178px;
+    border-radius: 50%;
+    left: 884px;
+    top: 204px;
+    font-size: 35px;
+}
+.skills-inner .skitems.sk6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 1100px;
+    top: 252px;
+    font-size: 25px;
+}
+.skills-inner .skitems.sk7 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 150px;
+    top: 492px;
+    font-size: 30px;
+}
+.skills-inner .skitems.sk8 {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    left: 235px;
+    top: 233px;
+    font-size: 42px;
+}
+.exp-inner .title3 {
+    position: absolute;
+    width: 463px;
+    height: 136px;
+    left: 462px;
+    top: 18px;
+    background: url(../images/title3.png)
+}
+.exp-inner a {
+    text-decoration: none;
+    position: absolute;
+}
+.exp-inner a .order {
+    float: left;
+    width: 140px;
+    height: 130px;
+    line-height: 130px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #7f7eff;
+    margin-right: 20px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    background: #fff;
+    color: #9190f3;
+}
+.exp-inner a .content {
+    float: left;
+    width: 800px;
+    height: 130px;
+    line-height: 130px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #7f7eff;
+    font-size: 50px;
+    text-align: center;
+    background: #fff;
+    font-weight: 800;
+    color: #9190f3
+}
+.exp-inner .exp.exp1 {
+    position: absolute;
+    left: 218px;
+    top: 204px;
+}
+.exp-inner .exp.exp2 {
+    position: absolute;
+    left: 218px;
+    top: 404px;
+}
+.exp-inner .exp.exp3 {
+    position: absolute;
+    left: 218px;
+    top: 604px;
+}
+.edu-inner .title4 {
+    position: absolute;
+    width: 463px;
+    height: 136px;
+    left: 462px;
+    top: 18px;
+    background: url(../images/title4.png)
+}
+.edu-inner a {
+    text-decoration: none;
+    color: #45616d;
+    position: absolute;
+    white-space: nowrap;
+    padding: 10px 20px;
+}
+.edu-inner .edu.edu1 {
+    top: 260px;
+    left: 220px;
+    font-size: 110px;
+    background: rgba(255, 255, 255, .2);
+}
+.edu-inner .edu.edu2 {
+    top: 454px;
+    left: 510px;
+    font-size: 70px;
+    background: rgba(255, 255, 255, .2);
+}
+.edu-inner .edu.edu3 {
+    top: 650px;
+    left: 830px;
+    font-size: 65px;
+    background: rgba(255, 255, 255, .2);
+}
+.edu-inner .edu.edu4 {
+    top: 300px;
+    left: 890px;
+    font-size: 48px;
+    background: rgba(255, 255, 255, .2);
+}
+.edu-inner .edu.edu5 {
+    top: 666px;
+    left: 380px;
+    font-size: 45px;
+    background: rgba(255, 255, 255, .2);
+}
+.edu-inner .edu.edu6 {
+    top: 590px;
+    left: 550px;
+    font-size: 58px;
+    background: rgba(255, 255, 255, .2);
+}
+.work-inner .title5 {
+    position: absolute;
+    width: 463px;
+    height: 136px;
+    left: 462px;
+    top: 18px;
+    background: url(../images/title5.png)
+}
+.work-inner a {
+    position: absolute;
+}
+.work-inner .timeline {
+    position: absolute;
+    width: 1193px;
+    height: 34px;
+    top: 228px;
+    left: 62px;
+    background: url(../images/timeline.png);
+}
+.work-inner .work.work1 {
+    width: 163px;
+    height: 375px;
+    top: 273px;
+    left: 227px;
+    background: url(../images/2013.png);
+}
+.work-inner .work.work2 {
+    width: 164px;
+    height: 426px;
+    top: 273px;
+    left: 486px;
+    background: url(../images/2014.png);
+}
+.work-inner .work.work3 {
+    width: 164px;
+    height: 426px;
+    top: 273px;
+    left: 1000px;
+    background: url(../images/2016.png);
+}
+.section2.active .skills-inner .skitems {
+    animation: scale 1s ease-out;
+    -webkit-animation: scale 1.2s ease-out;
+}
+@keyframes scale {
+    from {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    75% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes scale {
+    from {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    75% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}

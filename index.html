@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-cN">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+	<meta name="keywords" content="resume">
+	<meta name="description" content="初入前端希望找到一份合适的工作，如有意向请与我联系15991619274。">
+	<title>鲁晓松的个人简历</title>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery-ui-1.10.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.fn.fullpage({
+				resize: true,
+				slidesColor: ['#0075D1', '#C2E5FF', '#FDF6E1', '#E9E9E9', '#F3F3F3', '#F9F3DC'],
+				anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+				menu: '#menu',
+				verticalCentered: true,
+				scrollOverflow: false,
+				afterRender: function() {
+					$('.screen-main span').each(function() {
+						var $rel = $(this).attr('rel');
+						var $arr = $rel.split(',');
+						$(this).animate({
+							left: $arr[2] + 'px',
+							top: $arr[3] + 'px'
+						}, 500);
+					});
+					$('.inner a').each(function() {
+						var $rel = $(this).attr('rel');
+						var $arr = $rel.split(',');
+						$(this).animate({
+							left: $arr[0] + 'px',
+							top: $arr[1] + 'px'
+						}, 500);
+					});
+				},
+				afterLoad: function(anchorLink, index) {
+					if (index == 1) {
+						$('.screen-main span').each(function() {
+							var $rel = $(this).attr('rel');
+							var $arr = $rel.split(',');
+							$(this).animate({
+								left: $arr[2] + 'px',
+								top: $arr[3] + 'px'
+							}, 500);
+						});
+					}
+					if (index == 2 || index == 3 || index == 4 || index == 5) {
+						$('.inner').eq(index - 2).find('a').each(function() {
+							var $rel = $(this).attr('rel');
+							var $arr = $rel.split(',');
+							$(this).animate({
+								left: $arr[2] + 'px',
+								top: $arr[3] + 'px'
+							}, 500);
+						});
+					}
+				},
+				onLeave: function(index, direction) {
+					if (index == 1) {
+						$('.screen-main span').each(function() {
+							var $rel = $(this).attr('rel');
+							var $arr = $rel.split(',');
+							$(this).animate({
+								left: $arr[0] + 'px',
+								top: $arr[1] + 'px'
+							}, 500);
+						});
+					}
+					if (index == 2 || index == 3 || index == 4 || index == 5) {
+						$('.inner').eq(index - 2).find('a').each(function() {
+							var $rel = $(this).attr('rel');
+							var $arr = $rel.split(',');
+							$(this).animate({
+								left: $arr[0] + 'px',
+								top: $arr[1] + 'px'
+							}, 500);
+						});
+					}
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1">TOP</a></li>
+		<li data-menuanchor="page2"><a href="#page2">擅长技能</a></li>
+		<li data-menuanchor="page3"><a href="#page3">项目经验</a></li>
+		<li data-menuanchor="page4"><a href="#page4">教育背景</a></li>
+		<li data-menuanchor="page5"><a href="#page5">工作经历</a></li>
+		<li data-menuanchor="page6"><a href="#page6">了解更多</a></li>
+	</ul>
+
+	<div class="section section1">
+		<div class="screen-main">
+			<span class="li1" rel="-501,-455,640,234"></span>
+			<span class="li2" rel="2000,-359,691,271"></span>
+			<span class="jian1" rel="-328,-589,368,237"></span>
+			<span class="jian2" rel="2000,-487,502,237"></span>
+			<span class="jian3" rel="-244,-488,410,313"></span>
+			<span class="jian4" rel="-244,-488,410,360"></span>
+			<span class="jian5" rel="-244,-488,463,313"></span>
+			<span class="jian6" rel="-244,-488,463,360"></span>
+			<span class="jian7" rel="-244,-488,539,360"></span>
+			<span class="name" rel="2000,-213,706,485"></span>
+			<span class="slogen" rel="2000,-106,396,567"></span>
+		</div>
+	</div>
+
+	<div class="section section2">
+		<div class="skills-inner inner">
+			<span class="title2" rel="462,-100,462,18"></span>
+			<a class="skitems sk1" href="javascript:void(0)" rel="503,264,503,264">
+				<b>javaScript<br>70%</b>
+			</a>
+			<a class="skitems sk2" href="javascript:void(0)" rel="944,396,944,396">
+				<b>HTML(5)<br>70%</b>
+			</a>
+			<a class="skitems sk3" href="javascript:void(0)" rel="825,590,825,590">
+				<b>CSS(3)<br>70%</b>
+			</a>
+			<a class="skitems sk4" href="javascript:void(0)" rel="365,537,365,537">
+				<b>nodejs<br>30%</b>
+			</a>
+			<a class="skitems sk5" href="javascript:void(0)" rel="884,204,884,204">
+				<b>jQuery<br>70%</b>
+			</a>
+			<a class="skitems sk6" href="javascript:void(0)" rel="1100,252,1100,252">
+				<b>bootstrap<br>50%</b>
+			</a>
+			<a class="skitems sk7" href="javascript:void(0)" rel="150,492,150,492">
+				<b>sass,less<br>40%</b>
+			</a>
+			<a class="skitems sk8" href="javascript:void(0)" rel="235,233,235,233">
+				<b>PS<br>90%</b>
+			</a>
+		</div>
+	</div>
+
+	<div class="section section3">
+		<div class="exp-inner inner">
+			<span class="title3" rel="462,-100,462,18"></span>
+			<a class="exp exp1" href="javascript:void(0)" rel="-600,204,218,204">
+				<span class="order">1</span>
+				<span class="content">H5页面2016拜新年</span>
+			</a>
+			<a class="exp exp3" href="javascript:void(0)" rel="-1000,404,218,404">
+				<span class="order">2</span>
+				<span class="content">封装jQuery插件date-picker</span>
+			</a>
+			<a class="exp exp3" href="javascript:void(0)" rel="-1400,604,218,604">
+				<span class="order">3</span>
+				<span class="content">nodejs+mongodb搭建多人博客</span>
+			</a>
+		</div>
+	</div>
+	<div class="section section4">
+		<div class="edu-inner inner">
+			<span class="title4" rel="462,-100,462,18"></span>
+			<a class="edu edu1" href="javascript:void(0)" rel="-950,-200,220,260">工业设计系</a>
+			<a class="edu edu2" href="javascript:void(0)" rel="-900,-200,510,454">2009-2013</a>
+			<a class="edu edu3" href="javascript:void(0)" rel="-900,-400,830,650">工学学士</a>
+			<a class="edu edu4" href="javascript:void(0)" rel="980,228,890,300">陕西科技大学</a>
+			<a class="edu edu5" href="javascript:void(0)" rel="980,258,390,666">CET4</a>
+			<a class="edu edu6" href="javascript:void(0)" rel="980,258,550,590">中共党员</a>
+		</div>
+	</div>
+
+	<div class="section section5">
+		<div class="work-inner inner">
+			<span class="title5" rel="462,-100,462,18"></span>
+			<a class="timeline" href="javascript:void(0)" rel="-500,228,62,228"></a>
+			<a class="work work1" href="javascript:void(0)" rel="-600,273,227,273"></a>
+			<a class="work work2" href="javascript:void(0)" rel="-800,273,486,273"></a>
+			<a class="work work3" href="javascript:void(0)" rel="-1000,273,1000,273"></a>
+		</div>
+	</div>
+
+	<div class="section section6">
+		<div class="end"></div>
+	</div>
+
+</body>
+
+</html>

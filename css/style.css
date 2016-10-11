@@ -328,7 +328,7 @@
     height: 136px;
     left: 462px;
     top: 18px;
-    background: url(../images/title4.png)
+    background: url(../images/title4.png) 0 0 no-repeat;
 }
 .edu-inner a {
     text-decoration: none;
@@ -379,7 +379,7 @@
     height: 136px;
     left: 462px;
     top: 18px;
-    background: url(../images/title5.png)
+    background: url(../images/title5.png) 0 0 no-repeat;
 }
 .work-inner a {
     position: absolute;
